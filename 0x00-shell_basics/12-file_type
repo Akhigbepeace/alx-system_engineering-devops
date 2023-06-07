@@ -1,2 +1,2 @@
 #!/bin/bash
-^Mfile_path="/tmp/iamafile"^Mfile_type=$(file -b "$file_path")^Mecho "Type of $file_path: $file_type"
+file /tmp/iamafile
